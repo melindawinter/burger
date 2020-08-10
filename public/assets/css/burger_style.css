@@ -1,12 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .header {
   background-color: #147014;
   text-align: center;
-  height: 70px;
-  padding-top: 5px;
+  height: 80px;
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img.icon {
+  margin: 10px auto;
+}
+
+.form-group {
+  color: #147014;
+  font-size: 20px;
 }
 
 button {
   background-color: #147014;
+  color: white;
   display: inline-block;
   margin-top: 5px;
   margin-left: 10px;
@@ -15,4 +34,12 @@ button {
   font-size: 17px;
   border: none;
   border-radius: 5px;
+}
+
+h2 {
+  background-color: #147014;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
 }

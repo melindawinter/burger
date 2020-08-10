@@ -1,14 +1,15 @@
 <h1 class="header">Burger Shoppe</h1>
 
 
- <!-- Begin jumbotron -->
-     <div class="jumbotron jumbotron-fluid">
+ 
+     
       <div class="container">
-        <img src="../public/assets/img/burger_clipart.png"></div>img>
-<h2 class="display-3">Welcome to the home of delicious plant based burgers. Order anything you'd like and we'll make it with plants!</h2>
-
+        <div class="row"> 
+        <img class="img-responsive icon" src="./assets/img/hero.png">
+</div>
 {{!-- Add a burger --}}
-<form class="create-form">
+ 
+<form class="create-form, text-center">
 
   <div class="form-group">
     <label for="ca">Order your burger:</label>
@@ -17,7 +18,10 @@
   <button type="submit">Add Burger</button>
 
 </form>
+{{!-- Row for devoured and not devoured burgers --}}
+<div class="row"> 
 {{!-- Left side - not devoured --}}
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
 <h2>Orders being crafted!</h2>
 <ul>
   {{#each burgers}}
@@ -26,10 +30,11 @@
     {{/unless}}
   {{/each}}
 </ul>
-
+</div>
 
 
 {{!-- Right side - already devoured --}}
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
 <h2>Delicious burgers devoured!</h2>
 
 <ul>
@@ -39,9 +44,9 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
 
-
-
+</div>
 
 
   
