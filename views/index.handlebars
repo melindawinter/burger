@@ -3,6 +3,8 @@
 
 
 <h2>Welcome to the home of delicious plant based burgers. Order anything you'd like and we'll make it with plants!</h2>
+
+{{!-- Add a burger --}}
 <form class="create-form">
 
   <div class="form-group">
@@ -11,23 +13,26 @@
   </div>
   <button type="submit">Add Burger</button>
 
-
-
+</form>
+{{!-- Left side - not devoured --}}
 <h2>Orders being crafted!</h2>
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-{{burger_name}}
+{{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
+
+
+{{!-- Right side - already devoured --}}
 <h2>Delicious burgers devoured!</h2>
 
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-{{burger_name}}
+ {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -37,4 +42,3 @@
 
 
   
-</form>
