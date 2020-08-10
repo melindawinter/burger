@@ -1,8 +1,14 @@
+var bodyParser = require("body-parser");
+
 var express = require("express");
 
 var PORT = process.env.PORT || 8080;
 
 var app = express();
+
+// sets up data parsing
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public/"));
