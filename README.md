@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a restaurant app created using MySQL, Node, Express, Handlebars and an ORM. It follows the conventional MVC design structure. It is deployed to Heroku and you can see it here: . You can also see it in my portfolio here: <https://melindawinter.github.io/portfolio/portfolio.html>
+This is a restaurant app created using MySQL, Node, Express, Handlebars and an ORM. It follows the conventional MVC design structure. It is deployed to Heroku and you can see it here: <https://radiant-meadow-34570.herokuapp.com/> . You can also see it in my portfolio here: <https://melindawinter.github.io/portfolio/portfolio.html>
 
 ## Table of Contents
 
@@ -43,4 +43,4 @@ Please contribute to this project if you feel that you can make the code more ef
 
 ## Credits
 
-Thank you to my team members Cyrus Jose and Kevin Cabe for helping me get this app working. Thanks to Jeanette Hernandez for a pep talk, ideas for getting started, and for her general awesomeness.
+Thank you to my team members Cyrus Jose and Kevin Cabe for helping me get this app working. Thanks to Jeanette Hernandez for a pep talk, ideas for getting started, helping me set up the Heroku connection, and for her general awesomeness.
