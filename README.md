@@ -8,6 +8,7 @@ This is a restaurant app created using MySQL, Node, Express, Handlebars and an O
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Technologies](#technologies)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -24,6 +25,10 @@ This app is intended for the management of a burger restaurant or stand. Type in
 ![app](public/assets/img/app1.png)
 
 ![app device view](public/assets/img/app2.png)
+
+## Technologies
+
+HTML, CSS, Bootstrap, JavaScript, jQuery, AJAX, APIs, Node, Express, Handlebars, MySQL, Heroku
 
 ## License
 
